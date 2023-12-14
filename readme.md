@@ -1,4 +1,4 @@
-# NodeJS Beispiel API
+# NodeJS Example API
 
 ## Description
 This is a NodeJS example API project. It uses the following technologies:
@@ -9,6 +9,13 @@ This is a NodeJS example API project. It uses the following technologies:
 ## Installation
 1. Clone the repository: `git clone https://github.com/PhilippRath/node-api-mysql.git`
 2. Install dependencies: `npm install`
+3. Create a `.env` file in the root directory and add the following environment variables:
+```
+DB_HOST=localhost
+DB_USER=root
+DB_PASSWORD=
+DB_NAME=example
+```
 
 ## Usage
 1. Start the server: `npm start`
